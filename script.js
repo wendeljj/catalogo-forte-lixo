@@ -163,7 +163,6 @@ function renderizarCarrinho() {
     btnClear.style.display = 'none';
     if (avisoMin) avisoMin.classList.remove('visivel');
     atualizarBarraProgresso(0);
-    const obs = el('campo-observacoes');
     if (obs) obs.value = '';
     return;
   }
@@ -259,11 +258,6 @@ function atualizarUI() {
   renderizarCarrinho();
 }
 
-function getObservacoes() {
-  const obs = el('campo-observacoes');
-  return obs ? obs.value.trim() : '';
-}
-
 function enviarWhatsApp() {
   if (!estado.carrinho.length) return;
 
@@ -279,11 +273,6 @@ function enviarWhatsApp() {
   estado.carrinho.forEach(i => {
     msg += `• ${i.quantidade}x ${i.nome}\n`;
   });
-
-  const obs = getObservacoes();
-  if (obs) {
-    msg += `\n\n*Observações:*\n${obs}`;
-  }
 
   window.open(
     `https://api.whatsapp.com/send/?phone=${numero}&text=${encodeURIComponent(msg)}&type=phone_number&app_absent=0`,
