@@ -42,15 +42,23 @@
     {
     "categoria": "Panos e Tecidos",
     "nome": "Pano xadrez",
-    "preco": 2.80,
+    "preco": 3.25,
     "quantidade": "por un.",
     "img": "img/pano-xadrez.png"
   },
 
+      {
+    "categoria": "Panos e Tecidos",
+    "nome": "Saco alvejado caipira",
+    "preco": 3.25,
+    "quantidade": "por un.",
+    "img": null
+  },
+
   {
     "categoria": "Panos e Tecidos",
-    "nome": "Pano alvejado",
-    "preco": 5.85,
+    "nome": "Pano alvejado PP18",
+    "preco": 6.30,
     "quantidade": "por un.",
     "img": "img/pano-alvejado.png"
   },
@@ -58,18 +66,11 @@
   {
     "categoria": "Panos e Tecidos",
     "nome": "Pano de prato",
-    "preco": 2.75,
+    "preco": 2.9,
     "quantidade": "por un.",
     "img": "img/pano-prato.png"
   },
 
-  {
-    "categoria": "Panos e Tecidos",
-    "nome": "Flaneja branca 28x48",
-    "preco": 1.50,
-    "quantidade": "por un.",
-    "img": "img/flanela-branca.png"
-  },
 
   {
     "categoria": "Panos e Tecidos",
@@ -79,13 +80,6 @@
     "img": "img/flanela-branca.png"
   },
 
-  {
-    "categoria": "Panos e Tecidos",
-    "nome": "Flaneja laranja 28x48",
-    "preco": 1.50,
-    "quantidade": "por un.",
-    "img": "img/flanela-laranja.png"
-  },
 
   {
     "categoria": "Panos e Tecidos",
@@ -178,7 +172,7 @@
   {
     "categoria": "Limpeza Doméstica",
     "nome": "Limpa Azulejo c/ cabo",
-    "preco": 6.50,
+    "preco": 7.15,
     "quantidade": "por un.",
     "img": "img/limpa-azulejo-cabo.png"
   },
@@ -194,7 +188,7 @@
   {
     "categoria": "Limpeza Doméstica",
     "nome": "Balde 10L",
-    "preco": 6.90,
+    "preco": 7.80,
     "quantidade": "por un.",
     "img": "img/balde-pequeno.png"
   },
@@ -210,7 +204,7 @@
   {
     "categoria": "Limpeza Doméstica",
     "nome": "Balde 20L",
-    "preco": 15.50,
+    "preco": 15.60,
     "quantidade": "por un.",
     "img": "img/balde-grande.png"
   },
@@ -338,7 +332,7 @@
   {
     "categoria": "Higiene Pessoal",
     "nome": "Escova Condor de madeira",
-    "preco": 3.00,
+    "preco": 3.10,
     "quantidade": "por un.",
     "img": "img/escova-condor.png"
   }
