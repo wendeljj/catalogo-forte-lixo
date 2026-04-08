@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forte-Lixo — Catálogo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header id="site-header">
+    <div class="header-inner">
+
+      <a class="logo" href="#">
+        <span class="logo-text">FORTE<em>LIXO</em></span>
+      </a>
+
+      <div class="search-bar" id="search-bar">
+        <div class="search-select-wrap">
+          <select class="search-select" id="pesquisa-select">
+            <option value="">Todas</option>
+          </select>
+          <i class="fa-solid fa-chevron-down search-select-icon"></i>
+        </div>
+        <div class="search-divider"></div>
+        <input class="search-input" id="pesquisa-input" type="text" placeholder="Buscar produto…" autocomplete="off">
+        <button class="search-btn" id="pesquisa-botao" aria-label="Buscar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://api.whatsapp.com/send/?phone=5511964970905&text&type=phone_number&app_absent=0"
+           target="_blank" class="nav-btn nav-btn--wpp" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="nav-btn-label">11 96497-0905</span>
+        </a>
+        <button class="nav-btn nav-btn--cart" id="btn-carrinho-nav" aria-label="Carrinho">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <span class="cart-badge" id="carrinho-badge"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="search-mobile">
+      <div class="search-bar search-bar--mobile">
+        <div class="search-select-wrap">
+          <select class="search-select" id="pesquisa-select-mobile">
+            <option value="">Todas</option>
+          </select>
+          <i class="fa-solid fa-chevron-down search-select-icon"></i>
+        </div>
+        <div class="search-divider"></div>
+        <input class="search-input" id="pesquisa-input-mobile" type="text" placeholder="Buscar produto…" autocomplete="off">
+        <button class="search-btn" id="pesquisa-botao-mobile" aria-label="Buscar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">FORTE<em>LIXO</em></span>
+        <p>Entrega e qualidade que você pode contar.</p>
+      </div>
+      <div class="footer-col">
+        <strong>Contato</strong>
+        <ul>
+          <li><a href="https://api.whatsapp.com/send/?phone=5511964970905" target="_blank"><i class="fa-brands fa-whatsapp"></i> 11 96497-0905</a></li>
+          <li><span><i class="fa-regular fa-map"></i> São Paulo, SP</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Forte-Lixo. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" id="btn-modal-cancelar" aria-label="Fechar">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-body">
+        <div class="modal-img-wrap">
+          <img id="modal-img" src="" alt="">
+        </div>
+        <div class="modal-info">
+          <p class="modal-category" id="modal-category"></p>
+          <h2 class="modal-nome" id="modal-nome"></h2>
+          <p class="modal-preco" id="modal-preco"></p>
+
+          <div class="modal-qty-row">
+            <span class="modal-qty-label">Quantidade</span>
+            <div class="qty-control">
+              <button class="qty-btn" id="qty-menos" aria-label="Diminuir">−</button>
+              <input class="qty-input" id="modal-qty" type="number" min="1" value="1">
+              <button class="qty-btn" id="qty-mais" aria-label="Aumentar">+</button>
+            </div>
+          </div>
+
+          <button class="btn-add-modal" id="btn-modal-adicionar">
+            <i class="fa-solid fa-basket-shopping"></i>
+            Adicionar ao carrinho
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="drawer-overlay" id="carrinho-overlay">
+    <aside class="drawer" id="drawer" role="complementary" aria-label="Carrinho">
+      <div class="drawer-header">
+        <h2 class="drawer-title">
+          <i class="fa-solid fa-basket-shopping"></i>
+          Carrinho
+        </h2>
+        <button class="drawer-close" id="btn-fechar-carrinho" aria-label="Fechar carrinho">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="progresso-minimo" id="progresso-wrapper" data-estado="vazio">
+        <div class="progresso-track">
+          <div class="progresso-fill" id="progresso-barra"></div>
+        </div>
+        <span class="progresso-rotulo" id="progresso-rotulo">Mínimo: R$ 200,00</span>
+      </div>
+
+      <div class="drawer-items" id="carrinho-lista">
+        <div class="cart-empty">
+          <div class="cart-empty-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <p>Seu carrinho está vazio</p>
+          <span>Adicione produtos para fazer um pedido</span>
+        </div>
+      </div>
+
+      <div class="drawer-footer">
+
+        <div class="aviso-minimo" id="aviso-minimo" role="alert" aria-live="polite">
+          <div class="aviso-minimo-icon">
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <div class="aviso-minimo-texto">
+            <strong>Pedido mínimo não atingido</strong>
+            <span>Adicione mais <em class="aviso-falta"></em> para finalizar</span>
+          </div>
+        </div>
+
+        <div class="obs-wrap" id="obs-wrap">
+          <label class="obs-label" for="campo-observacoes">
+            <i class="fa-regular fa-note-sticky"></i>
+            Observações do pedido
+          </label>
+          <textarea
+            class="obs-textarea"
+            id="campo-observacoes"
+            rows="3"
+            maxlength="400"
+          ></textarea>
+          <span class="obs-counter"><span id="obs-count">0</span>/400</span>
+        </div>
+
+        <div class="drawer-total">
+          <span>Total do pedido</span>
+          <strong id="carrinho-subtotal-valor">R$ 0,00</strong>
+        </div>
+        <button class="btn-whatsapp" id="btn-enviar-whatsapp" disabled>
+          <i class="fa-brands fa-whatsapp"></i>
+          Enviar pedido pelo WhatsApp
+        </button>
+        <button class="btn-clear" id="btn-limpar-carrinho" style="display:none">
+          <i class="fa-regular fa-trash-can"></i> Limpar carrinho
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <i class="fa-solid fa-check" id="toast-icon"></i>
+    <span class="toast-msg"></span>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const textarea = document.getElementById('campo-observacoes');
+      const counter  = document.getElementById('obs-count');
+      if (textarea && counter) {
+        textarea.addEventListener('input', () => {
+          counter.textContent = textarea.value.length;
+        });
+      }
+    });
+  </script>
+</body>
+</html>

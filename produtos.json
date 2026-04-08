@@ -1,0 +1,345 @@
+[
+  {
+    "categoria": "Sacos para Lixo",
+    "nome": "Saco p/ Lixo 20L",
+    "preco": 4.20,
+    "quantidade": "por un.",
+    "img": "img/saco-lixo-20l.png"
+  },
+
+  {
+    "categoria": "Sacos para Lixo",
+    "nome": "Saco p/ Lixo 40L",
+    "preco": 4.20,
+    "quantidade": "por un.",
+    "img": "img/saco-lixo-40l.png"
+  },
+
+  {
+    "categoria": "Sacos para Lixo",
+    "nome": "Saco p/ Lixo 60L",
+    "preco": 4.20,
+    "quantidade": "por un.",
+    "img": "img/saco-lixo-60l.png"
+  },
+
+  {
+    "categoria": "Sacos para Lixo",
+    "nome": "Saco p/ Lixo 100L",
+    "preco": 4.20,
+    "quantidade": "por un.",
+    "img": "img/saco-lixo-100l.png"
+  },
+
+  {
+    "categoria": "Sacos para Lixo",
+    "nome": "Saco p/ Lixo 100L Reforçado",
+    "preco": 6.80,
+    "quantidade": "por un.",
+    "img": "img/saco-lixo-100lr.png"
+  },
+
+    {
+    "categoria": "Panos e Tecidos",
+    "nome": "Pano xadrez",
+    "preco": 2.80,
+    "quantidade": "por un.",
+    "img": "img/pano-xadrez.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Pano alvejado",
+    "preco": 5.85,
+    "quantidade": "por un.",
+    "img": "img/pano-alvejado.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Pano de prato",
+    "preco": 2.75,
+    "quantidade": "por un.",
+    "img": "img/pano-prato.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Flaneja branca 28x48",
+    "preco": 1.50,
+    "quantidade": "por un.",
+    "img": "img/flanela-branca.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Flaneja branca 38x58",
+    "preco": 2.00,
+    "quantidade": "por un.",
+    "img": "img/flanela-branca.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Flaneja laranja 28x48",
+    "preco": 1.50,
+    "quantidade": "por un.",
+    "img": "img/flanela-laranja.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Flaneja laranja 38x58",
+    "preco": 2.00,
+    "quantidade": "por un.",
+    "img": "img/flanela-laranja.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Avental",
+    "preco": 5.50,
+    "quantidade": "por un.",
+    "img": "img/avental.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Luva Sanro Plus P",
+    "preco": 8.90,
+    "quantidade": "por un.",
+    "img": "img/luva-sanro-plus.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Luva Sanro Plus M",
+    "preco": 8.90,
+    "quantidade": "por un.",
+    "img": "img/luva-sanro-plus.png"
+  },
+
+  {
+    "categoria": "Panos e Tecidos",
+    "nome": "Luva Sanro Plus G",
+    "preco": 8.90,
+    "quantidade": "por un.",
+    "img": "img/luva-sanro-plus.png"
+  },
+
+  {
+    "categoria": "Varais",
+    "nome": "Varal Super",
+    "preco": 2.50,
+    "quantidade": "por un.",
+    "img": "img/varal-super.png"
+  },
+
+  {
+    "categoria": "Varais",
+    "nome": "Varal Cordinha",
+    "preco": 1.70,
+    "quantidade": "por un.",
+    "img": "img/varal-cordinha.png"
+  },
+
+  {
+    "categoria": "Varais",
+    "nome": "Varal de Teto",
+    "preco": 6.80,
+    "quantidade": "por un.",
+    "img": "img/varal-teto.png"
+  },
+
+  {
+    "categoria": "Varais",
+    "nome": "Varal Sanshin",
+    "preco": 10.80,
+    "quantidade": "por un.",
+    "img": "img/varal-sanshin.png"
+  },
+
+  {
+    "categoria": "Varais",
+    "nome": "Prendedor plástico Águia Branca G",
+    "preco": 2.60,
+    "quantidade": "por un.",
+    "img": "img/prendedor-aguia-branca-grande.png"
+  },
+
+  {
+    "categoria": "Varais",
+    "nome": "Cesta p/ prendedor",
+    "preco": 3.25,
+    "quantidade": "por un.",
+    "img": "img/cesta-prendedor.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Limpa Azulejo c/ cabo",
+    "preco": 6.50,
+    "quantidade": "por un.",
+    "img": "img/limpa-azulejo-cabo.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Rodo de Pia Plástico",
+    "preco": 2.20,
+    "quantidade": "por un.",
+    "img": "img/rodo-pia-plastico.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Balde 10L",
+    "preco": 6.90,
+    "quantidade": "por un.",
+    "img": "img/balde-pequeno.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Balde 15L",
+    "preco": 10.20,
+    "quantidade": "por un.",
+    "img": "img/balde-pequeno.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Balde 20L",
+    "preco": 15.50,
+    "quantidade": "por un.",
+    "img": "img/balde-grande.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Pá cabo longo",
+    "preco": 4.30,
+    "quantidade": "por un.",
+    "img": "img/pa-cabo-longo.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Escova de unha",
+    "preco": 2.50,
+    "quantidade": "por un.",
+    "img": "img/escova-unha.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Escova sanitária c/ suporte",
+    "preco": 7.10,
+    "quantidade": "por un.",
+    "img": "img/escova-sanitaria.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Desentupidor de pia",
+    "preco": 2.80,
+    "quantidade": "por un.",
+    "img": "img/desentupidor-pia.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Desentupidor de WC",
+    "preco": 4.90,
+    "quantidade": "por un.",
+    "img": "img/desentupidor-wc.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Pulverizador 500ML",
+    "preco": 5.50,
+    "quantidade": "por un.",
+    "img": "img/pulverizador.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Pasta de brilho",
+    "preco": 4.10,
+    "quantidade": "por un.",
+    "img": "img/pasta-brilho.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Espremedor de limão",
+    "preco": 6.85,
+    "quantidade": "por un.",
+    "img": "img/espremedor-limao.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Espremedor de laranja",
+    "preco": 10.20,
+    "quantidade": "por un.",
+    "img": "img/espremedor-laranja.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Espremedor de alho",
+    "preco": 3.80,
+    "quantidade": "por un.",
+    "img": "img/espremedor-alho.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Espremedor de batata",
+    "preco": 12.00,
+    "quantidade": "por un.",
+    "img": "img/espremedor-batata.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Copo graduado 500 ml",
+    "preco": 6.00,
+    "quantidade": "por un.",
+    "img": "img/copo-graduado-500.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Funil 03",
+    "preco": 2.20,
+    "quantidade": "por un.",
+    "img": "img/funil.png"
+  },
+
+  {
+    "categoria": "Utensílios de Cozinha",
+    "nome": "Funil 04",
+    "preco": 2.40,
+    "quantidade": "por un.",
+    "img": "img/funil.png"
+  },
+
+  {
+    "categoria": "Higiene Pessoal",
+    "nome": "Escova anatômica de plástico",
+    "preco": 3.80,
+    "quantidade": "por un.",
+    "img": "img/escova-anatomica.png"
+  },
+
+  {
+    "categoria": "Higiene Pessoal",
+    "nome": "Escova Condor de madeira",
+    "preco": 3.00,
+    "quantidade": "por un.",
+    "img": "img/escova-condor.png"
+  }
+]
