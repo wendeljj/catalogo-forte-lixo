@@ -163,7 +163,6 @@ function renderizarCarrinho() {
     btnClear.style.display = 'none';
     if (avisoMin) avisoMin.classList.remove('visivel');
     atualizarBarraProgresso(0);
-    if (obs) obs.value = '';
     return;
   }
 
@@ -432,8 +431,9 @@ async function init() {
   carregarCarrinho();
 
   try {
-    const res = await fetch('produtos.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const res = await fetch('./produtos.json'); 
+    if (!res.ok) throw new Error(`Não encontrou o arquivo JSON (Status: ${res.status})`);
+    
     estado.produtos = await res.json();
 
     popularSelects();
@@ -443,18 +443,15 @@ async function init() {
     setupCarrinho();
     atualizarUI();
 
-    if (estado.carrinho.length > 0) {
-      const total = estado.carrinho.reduce((s, i) => s + i.quantidade, 0);
-      mostrarToast(`🛒 ${total} item${total !== 1 ? 's' : ''} restaurado${total !== 1 ? 's' : ''} do carrinho`);
-    }
+    console.log("App inicializado com sucesso");
 
   } catch (err) {
-    console.error('Erro ao carregar produtos:', err);
+    console.error('Erro detalhado:', err);
     el('conteudo-principal').innerHTML = `
       <div class="no-results">
         <i class="fa-solid fa-triangle-exclamation"></i>
         <p>Erro ao carregar produtos</p>
-        <span>Tente recarregar a página</span>
+        <small>${err.message}</small>
       </div>`;
   }
 }
