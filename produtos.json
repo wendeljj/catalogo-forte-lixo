@@ -98,30 +98,6 @@
   },
 
   {
-    "categoria": "Panos e Tecidos",
-    "nome": "Luva Sanro Plus P",
-    "preco": 8.90,
-    "quantidade": "por un.",
-    "img": "img/luva-sanro-plus.png"
-  },
-
-  {
-    "categoria": "Panos e Tecidos",
-    "nome": "Luva Sanro Plus M",
-    "preco": 8.90,
-    "quantidade": "por un.",
-    "img": "img/luva-sanro-plus.png"
-  },
-
-  {
-    "categoria": "Panos e Tecidos",
-    "nome": "Luva Sanro Plus G",
-    "preco": 8.90,
-    "quantidade": "por un.",
-    "img": "img/luva-sanro-plus.png"
-  },
-
-  {
     "categoria": "Varais",
     "nome": "Varal Super",
     "preco": 2.50,
@@ -263,6 +239,30 @@
     "preco": 4.10,
     "quantidade": "por un.",
     "img": "img/pasta-brilho.png"
+  },
+
+    {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Luva Sanro Plus P",
+    "preco": 8.90,
+    "quantidade": "por un.",
+    "img": "img/luva-sanro-plus.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Luva Sanro Plus M",
+    "preco": 8.90,
+    "quantidade": "por un.",
+    "img": "img/luva-sanro-plus.png"
+  },
+
+  {
+    "categoria": "Limpeza Doméstica",
+    "nome": "Luva Sanro Plus G",
+    "preco": 8.90,
+    "quantidade": "por un.",
+    "img": "img/luva-sanro-plus.png"
   },
 
   {
