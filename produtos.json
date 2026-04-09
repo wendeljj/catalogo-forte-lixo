@@ -268,7 +268,7 @@
   {
     "categoria": "Utensílios de Cozinha",
     "nome": "Espremedor de limão",
-    "preco": 6.85,
+    "preco": 7.80,
     "quantidade": "por un.",
     "img": "img/espremedor-limao.png"
   },
@@ -284,7 +284,7 @@
   {
     "categoria": "Utensílios de Cozinha",
     "nome": "Espremedor de alho",
-    "preco": 3.80,
+    "preco": 4.10,
     "quantidade": "por un.",
     "img": "img/espremedor-alho.png"
   },
